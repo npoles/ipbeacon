@@ -33,13 +33,13 @@ To Run IP Beacon
 Program Structure
 -----------------
 ipbeacon
-├── README.md                           -- self-explanatory
-├── config                              
-│   └── com.nickpoles.ipbeacon.plist    -- OS X launchd config
-└── scripts
-    ├── genconfig.py                    -- generates config file
-    ├── install.sh                      --
-    ├── ipbeacon.py
-    ├── start.sh
-    ├── status.sh
-    └── stop.sh
+|-- README.md                           -- self-explanatory
+|-- config                              
+|   +- com.nickpoles.ipbeacon.plist    -- OS X launchd config
+|-- scripts
+    +-- genconfig.py                    -- generates config file
+    +-- install.sh                      --
+    +-- ipbeacon.py
+    +-- start.sh
+    +-- status.sh
+    +-- stop.sh
