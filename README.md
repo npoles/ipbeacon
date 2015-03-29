@@ -9,7 +9,7 @@ Internet connection, you need your IP address to remain static. If it does
 not, then you could suddenly lose access. IP Beacon is a simple tool that 
 monitors your IP address every 5 minutes (via [icanhazip.com](http://icanhazip.com/)) 
 and notifies you when it changes. At this point in time, it doesn't update 
-anything (such as DNS records) for you, but it will at least make your aware 
+anything (such as DNS records) for you, but it will at least make you aware 
 of an IP address change. Additionally, you won't have to pay your ISP to 
 maintain a static IP address.
 
