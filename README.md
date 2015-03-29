@@ -1,3 +1,6 @@
+IP Beacon
+===============
+
 requires scripts to be run from ipbeacon/scripts
 
 group might not be 'wheel' on linux
