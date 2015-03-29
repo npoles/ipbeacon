@@ -7,7 +7,8 @@ your IP address randomly and provide static IP addresses as an additional
 cost. If you do any sort of remote login or run a web server from your home
 Internet connection, you need your IP address to remain static. If it does 
 not, then you could suddenly lose access. IP Beacon is a simple tool that 
-monitors your IP address every 5 minutes (via [icanhazip.com](http://icanhazip.com/))and notifies you when it changes. At this point in time, it doesn't update 
+monitors your IP address every 5 minutes (via [icanhazip.com](http://icanhazip.com/)) 
+and notifies you when it changes. At this point in time, it doesn't update 
 anything (such as DNS records) for you, but it will at least make your aware 
 of an IP address change. Additionally, you won't have to pay your ISP to 
 maintain a static IP address.
