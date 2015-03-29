@@ -10,7 +10,9 @@ not, then you could suddenly lose access. IP Beacon is a simple tool that
 monitors your IP address every 5 minutes and notifies you when it changes. 
 At this point in time, it doesn't update anything (such as DNS records) for 
 you, but it will at least make your aware of an IP address change. 
-Additionally, you won't have to pay your ISP to maintain a static IP address.
+Additionally, you won't have to pay your ISP to maintain a static IP address.  
+__I tried to make this code as complete as possible, however, it is still very new and, as such, will have bugs.__    
+__Please feel free to submit changes and/or suggestions.__
 
 Requirements
 ------------
@@ -49,6 +51,14 @@ Additional Ideas
   file to send me a text message. 
     * [This GitHub repo](https://github.com/CrakeNotSnowman/Python_Message/blob/master/sendMessage.py#L106)
       was a big help in figuring this out. 
+* This code should be easily modifiable to fit a UNIX/Linux system. In fact, only
+  the automation/launchd configuration should need to be changed. Feel free to submit
+  modifications and/or suggestions. 
 
-Notes
------
+Helpful Resources
+-----------------
+* [Python smtplib Docs](https://docs.python.org/2/library/smtplib.html)
+* [Python urllib Docs](https://docs.python.org/2/library/urllib.html)
+* [Python json Docs](https://docs.python.org/2/library/json.html)
+* [Apple's Creating Launch Daemons and Agents Docs](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html#//apple_ref/doc/uid/10000172i-SW7-BCIEDDBJ)
+* [Apple's launchd.plist Man Page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html#//apple_ref/doc/man/5/launchd.plist)
