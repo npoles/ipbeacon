@@ -47,9 +47,9 @@ Additional Ideas
 ----------------
 * Instead of sending the alert to an actual email inbox, I've written my config
   file to send me a text message. 
-    *[This GitHub repo]
-     (https://github.com/CrakeNotSnowman/Python_Message/blob/master/sendMessage.py#L106)
-     was a big help in figuring this out. 
+    * [This GitHub repo]
+      (https://github.com/CrakeNotSnowman/Python_Message/blob/master/sendMessage.py#L106)
+      was a big help in figuring this out. 
 
 Notes
 -----
