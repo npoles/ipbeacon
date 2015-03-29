@@ -8,15 +8,24 @@ import subprocess
 """**************************************************************************
 * genconfig.py
 * 
-* FILL THIS OUT! 
-* [DESCRIPTION]
-
 * Author: npoles
 * Date: March 29, 2015
 * Last edited: March 29, 2015
 * 
+* Collects information required to run the program, stores it in a python
+* dictionary and then writes the dictionary as a JSON file to 
+* ipbeacon/config/ipbeacon.conf. 
+* The program also collects and email account password which is written to
+* a file separate from the config file (.beaconpass). This file is only ever
+* placed in the user's home directory (~) and then has it's ownership changed
+* to the root user and wheel group (OS X) with 400 permissions. Theoretically
+* this should limit control and viewing to users with root access. 
+*
 * Preconditions:
 *   1. ipbeacon directory is in place and contains the config directory
+* Postconditions:
+*	1. conf/ipbeacon.conf has been created and .beaconpass is placed in
+* 	   the user's home directory
 **************************************************************************"""
 
 def get_inputs(config):
@@ -45,6 +54,8 @@ def get_inputs(config):
 	return password
 
 def write_config(config):
+	"""Write the config to a file in JSON format"""
+
 	cfile = file('../config/ipbeacon.conf', 'w')
 	json.dump(config, cfile)
 	cfile.close()

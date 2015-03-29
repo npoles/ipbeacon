@@ -4,7 +4,8 @@
 # status.sh
 # 
 # This script is a shortcut for querying launchctl (on OS X) for the status
-# of IP Beacon. 
+# of IP Beacon. Requires sudo because ipbeacon.py is run by the root user
+# at system boot (allowing it to function with no users logged in).
 #
 # Author: npoles
 # Date: March 29, 2015
