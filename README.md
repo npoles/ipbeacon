@@ -17,8 +17,7 @@ _I tried to make this code as complete as possible, however, it is still very
 new and, as such, will have bugs._    
 _Please feel free to submit changes and/or suggestions._
 
-Requirements
-------------
+###Requirements
 * Python 2.7
 * IP Beacon was designed for OS X machines (and relies on launchd). It may run on
   a one-off basis on Linux machines but the scheduling definitely will not work. 
@@ -26,16 +25,14 @@ Requirements
   scripts directories. 
 * Scripts must be run from the scripts directory. 
 
-To Run IP Beacon
-----------------
+###To Run IP Beacon
 1. Clone this repository
 2. Run scripts/genconfig.py
 3. Run scripts/install.sh
 4. Run scripts/start.sh
 
 
-Program Structure
------------------
+###Program Structure
     ipbeacon  
     |-- README.md                               - self-explanatory  
     |-- config  
@@ -48,8 +45,7 @@ Program Structure
            |-- status.sh                        - quick way to check beacon
            |-- stop.sh                          - quick way to stop beacon
 
-Additional Ideas
-----------------
+###Additional Ideas
 * Instead of sending the alert to an actual email inbox, I've written my config
   file to send me a text message. 
     * This [GitHub repo](https://github.com/CrakeNotSnowman/Python_Message/blob/master/sendMessage.py#L106)
@@ -57,8 +53,7 @@ Additional Ideas
 * This code should be easily modifiable to fit a UNIX/Linux system. In fact, only
   the automation/launchd configuration should need to be changed.
 
-Helpful Resources
------------------
+###Helpful Resources
 * [Python smtplib Docs](https://docs.python.org/2/library/smtplib.html)
 * [Python urllib Docs](https://docs.python.org/2/library/urllib.html)
 * [Python json Docs](https://docs.python.org/2/library/json.html)
