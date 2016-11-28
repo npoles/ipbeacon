@@ -17,7 +17,7 @@ import subprocess
 * ipbeacon/config/ipbeacon.conf. 
 * The program also collects and email account password which is written to
 * a file separate from the config file (.beaconpass). This file is only ever
-* placed in the user's home directory (~) and then has it's ownership changed
+* placed in the user's home directory (~) and then has its ownership changed
 * to the root user and wheel group (OS X) with 400 permissions. Theoretically
 * this should limit control and viewing to users with root access. 
 *
