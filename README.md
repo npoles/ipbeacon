@@ -17,7 +17,7 @@ _I tried to make this code as complete as possible, however, it is still very
 new and, as such, will have bugs._    
 _Please feel free to submit changes and/or suggestions._
 
-###Requirements
+### Requirements
 * Python 2.7
 * IP Beacon was designed for OS X machines (and relies on launchd). It may run on
   a one-off basis on Linux machines but the scheduling definitely will not work. 
