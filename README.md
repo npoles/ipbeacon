@@ -25,15 +25,17 @@ _Please feel free to submit changes and/or suggestions._
   scripts directories. 
 * Scripts must be run from the scripts directory. 
 
-###To Run IP Beacon
+### To Run IP Beacon
 1. Clone this repository
 2. Run scripts/genconfig.py
 3. Run scripts/install.sh
 4. Run scripts/start.sh
 
 
-###Program Structure
-    ipbeacon  
+### Program Structure
+
+~~~~
+ipbeacon  
     |-- README.md                               - self-explanatory  
     |-- config  
     |      |-- com.nickpoles.ipbeacon.plist     - OS X launchd config  
@@ -44,8 +46,9 @@ _Please feel free to submit changes and/or suggestions._
            |-- start.sh                         - quick way to start beacon
            |-- status.sh                        - quick way to check beacon
            |-- stop.sh                          - quick way to stop beacon
+~~~~
 
-###Additional Ideas
+### Additional Ideas
 * Instead of sending the alert to an actual email inbox, I've written my config
   file to send me a text message. 
     * This [GitHub repo](https://github.com/CrakeNotSnowman/Python_Message/blob/master/sendMessage.py#L106)
