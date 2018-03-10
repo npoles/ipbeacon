@@ -33,7 +33,6 @@ _Please feel free to submit changes and/or suggestions._
 
 
 ### Program Structure
-
 ~~~~
 ipbeacon  
     |-- README.md                               - self-explanatory  
@@ -56,7 +55,7 @@ ipbeacon
 * This code should be easily modifiable to fit a UNIX/Linux system. In fact, only
   the automation/launchd configuration should need to be changed.
 
-###Helpful Resources
+### Helpful Resources
 * [Python smtplib Docs](https://docs.python.org/2/library/smtplib.html)
 * [Python urllib Docs](https://docs.python.org/2/library/urllib.html)
 * [Python json Docs](https://docs.python.org/2/library/json.html)
